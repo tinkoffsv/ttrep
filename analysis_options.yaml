@@ -1,0 +1,16 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    - hash_and_equals
+    - avoid_print
+analyzer:
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+    - "lib/screens/dev/*"
+  errors:
+    missing_function_body: ignore
+    prefer_const_constructors: ignore
+
+#include: package:pedantic/analysis_options.1.11.0.yaml
